@@ -17,7 +17,7 @@ class LogginViewController: UIViewController {
     
     @IBOutlet private weak var usernameTextField: UITextField!
     @IBOutlet private weak var passwordTextField: UITextField!
-    @IBOutlet private weak var logginTypeSegmentedCOntrol: UISegmentedControl!
+    @IBOutlet private weak var logginTypeSegmentedControl: UISegmentedControl!
     @IBOutlet private weak var signInButton: UIButton!
     
     //MARK: - Properties

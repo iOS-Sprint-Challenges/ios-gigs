@@ -13,6 +13,8 @@
 		0401A21A27B9880D0039DD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0401A21927B9880D0039DD64 /* Assets.xcassets */; };
 		0401A21D27B9880D0039DD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0401A21B27B9880D0039DD64 /* LaunchScreen.storyboard */; };
 		0401A22727B9885D0039DD64 /* LogginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401A22627B9885D0039DD64 /* LogginViewController.swift */; };
+		0401A22B27B98D120039DD64 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401A22A27B98D120039DD64 /* AnimalTableViewController.swift */; };
+		0401A22D27B98D460039DD64 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401A22C27B98D460039DD64 /* AnimalDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0401A21C27B9880D0039DD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0401A21E27B9880D0039DD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0401A22627B9885D0039DD64 /* LogginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginViewController.swift; sourceTree = "<group>"; };
+		0401A22A27B98D120039DD64 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		0401A22C27B98D460039DD64 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				0401A22627B9885D0039DD64 /* LogginViewController.swift */,
+				0401A22A27B98D120039DD64 /* AnimalTableViewController.swift */,
+				0401A22C27B98D460039DD64 /* AnimalDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -154,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401A22D27B98D460039DD64 /* AnimalDetailViewController.swift in Sources */,
 				0401A22727B9885D0039DD64 /* LogginViewController.swift in Sources */,
 				0401A21127B9880C0039DD64 /* AppDelegate.swift in Sources */,
 				0401A21327B9880C0039DD64 /* SceneDelegate.swift in Sources */,
+				0401A22B27B98D120039DD64 /* AnimalTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
